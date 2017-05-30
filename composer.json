@@ -1,0 +1,21 @@
+{
+    "name": "rastellid/travis-test1",
+    "description": "Test Travis Cli",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Daniele Rastelli",
+            "email": "info@next-technology.eu"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NextLabs\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
+
