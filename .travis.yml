@@ -9,4 +9,4 @@ before_install:
   - composer self-update
 
 script:
-  - vendor/bin/phpunit --coverage-clover build/logs/coverage.xml
+  - vendor/bin/phpunit
